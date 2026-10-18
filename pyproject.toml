@@ -27,6 +27,7 @@ pythonpath = ["src"]
 target-version = "py312"
 line-length = 88
 src = ["src", "tests"]
+extend-exclude = ["*.ipynb"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
